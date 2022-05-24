@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Playlist Videos Extract</title>
+        <link rel="stylesheet" href="./styles/main-style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Playlist Videos Extract</h1>
+            <p>Extract videos links in a YouTube Playlist</p>
+        </header>
+        <main>
+            <input type="text" name="playlist-search" id="playlist-id-search" placeholder="Input here your playlist ID. e.g: PLbpi6ZahtOH5OCn-YaaBpJqj4s4EjvFQa">
+            <input type="button" value="Extract" id="extract-button">
+        </main>
+        <section>
+            <aside id="results-container">
+            </aside>
+            <ul id="links-video-container" data-before="js-before">
+                <li class="video-link-extract-container">
+                    <a class="video-link-extract" href="#">The videos will appear here</a>
+                </li>
+            </ul>
+            <aside id="prev-next-container">
+                <!-- <button class="previous">Previous</button>
+                <button class="next">More videos</button> -->
+            </aside>
+        </section>
+        <!-- <footer>
+            <aside>
+                <a href="#">pt-BR</a>
+                <a href="#">en-US</a>
+            </aside>
+        </footer> -->
+        <script src="./scripts/requestScripts.js"></script>
+    </body>
+</html>
