@@ -2,36 +2,31 @@
 <html>
     <head>
         <title>Playlist Videos Extract</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./styles/main-style.css">
+        <link rel="shortcut icon" href="./icons/favicon-32x32.png" type="image/x-icon">
     </head>
     <body>
         <header>
             <h1>Playlist Videos Extract</h1>
-            <p>Extract videos links in a YouTube Playlist</p>
+            <p id="header-information">Extract videos links from a YouTube Playlist</p>
         </header>
         <main>
-            <input type="text" name="playlist-search" id="playlist-id-search" placeholder="Input here your playlist ID. e.g: PLbpi6ZahtOH5OCn-YaaBpJqj4s4EjvFQa">
+            <input type="text" name="playlist-search" id="playlist-id-search"
+                placeholder="Input here your playlist ID. e.g: PLbpi6ZahtOH5OCn-YaaBpJqj4s4EjvFQa"
+                value="PL4XapsKq_N4UZ0_ghlCKZdQ4iybwEfqKE">
             <input type="button" value="Extract" id="extract-button">
         </main>
         <section>
             <aside id="results-container">
             </aside>
-            <ul id="links-video-container" data-before="js-before">
-                <li class="video-link-extract-container">
-                    <a class="video-link-extract" href="#">The videos will appear here</a>
-                </li>
-            </ul>
-            <aside id="prev-next-container">
-                <!-- <button class="previous">Previous</button>
-                <button class="next">More videos</button> -->
-            </aside>
+            <ul id="links-video-container" style="display: none;"></ul>
+            <aside id="prev-next-container"></aside>
         </section>
-        <!-- <footer>
-            <aside>
-                <a href="#">pt-BR</a>
-                <a href="#">en-US</a>
-            </aside>
-        </footer> -->
+        <footer>
+            <p>This site doesn't have any relationship with YouTube (Site version: 1.0.1)</p>
+        </footer>
         <script src="./scripts/requestScripts.js"></script>
     </body>
 </html>
