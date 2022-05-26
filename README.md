@@ -12,6 +12,6 @@ Extraia os links de vídeos de uma playlist do YouTube em poucos cliques! :open_
 
 Os botões irão aparecer quando você fazer uma extração (pesquisa).
 
-| Previous | More videos | Copy Content Content |
+| Previous | More videos | Copy Content |
 | -------- | ----------- | -------------------- |
 | Irá voltar aos vídeos anteriores | Você poderá ver mais vídeos na próxima página | Isso fará que você possa copiar todos os links separados por "," daquela página em questão)
