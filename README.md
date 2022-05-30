@@ -1,5 +1,7 @@
 # ExtractVideosFromPlaylists
-Extraia os links de vídeos de uma playlist do YouTube em poucos cliques! :open_file_folder:
+Com esta aplicação, você conseguirá extrair os links de vídeos de uma playlist do YouTube, ao invés de ficar copiando link por link em uma playlist :open_file_folder:
+
+### Confira mais detalhes abaixo:
 
 ## Informações sobre a página
 
